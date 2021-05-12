@@ -7,7 +7,7 @@ on:
 jobs:
   job1:
     env:
-      NODE_VERSION: 12
+      ARTIFACT_NAME: exercicio_02
       
     runs-on: ubuntu-latest
 
@@ -18,6 +18,6 @@ jobs:
     - name: Step Upload Artifact
       uses: actions/upload-artifact@v2.2.3
       with:
-        name: package
+        name: ${{ env.ARTIFACT_NAME }}
         path: .
         if-no-files-found: error
