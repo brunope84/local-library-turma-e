@@ -1,7 +1,7 @@
 name: Hello World Bruno
-  on:
-    push:
-      branches: [ main ]
+on:
+  push:
+    branches: [ main ]
 
 jobs:
   job1:
@@ -28,7 +28,7 @@ jobs:
         run: date
     
   job4:
-    name: Terceiro Job
+    name: Quarto Job
     runs-on: ubuntu-latest
     needs: [job1, job2, job3]
     
