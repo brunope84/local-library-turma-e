@@ -1,0 +1,19 @@
+name: exercicio aula 2
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  job1:
+    env:
+      NODE_VERSION: 12
+      
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Step Checkout
+      uses: actions/checkout@v2.3.4
+   
+    - name: Step Upload Artifact
+      uses: actions/upload-artifact@v2.2.3
