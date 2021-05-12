@@ -17,3 +17,7 @@ jobs:
    
     - name: Step Upload Artifact
       uses: actions/upload-artifact@v2.2.3
+      with:
+        name: package
+        path: .
+        if-no-files-found: error
