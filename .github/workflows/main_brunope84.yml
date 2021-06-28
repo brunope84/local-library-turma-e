@@ -56,7 +56,7 @@ jobs:
       
   deploy_homologacao:
     runs-on: ubuntu-latest
-    needs: linter
+    needs: [build, linter]
     environment:
       name: 'homologacao'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
