@@ -1,6 +1,10 @@
 # local-library - validacao pull request
 
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/dashboard?id=brunope84_local-library-turma-e)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=brunope84_local-library-turma-e&metric=bugs)](https://sonarcloud.io/dashboard?id=brunope84_local-library-turma-e)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=brunope84_local-library-turma-e&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=brunope84_local-library-turma-e)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=brunope84_local-library-turma-e&metric=code_smells)](https://sonarcloud.io/dashboard?id=brunope84_local-library-turma-e)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=brunope84_local-library-turma-e&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=brunope84_local-library-turma-e)
 
 ## Creating the local project
 
